@@ -14,4 +14,4 @@ int main() {
      scanf("%d", &chute);
      printf("%d esse foi o seu chute", chute);
 }
-}
+
