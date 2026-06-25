@@ -1,7 +1,8 @@
 #include <stdio.h>
-
+#include <windows.h>
 int main() {
-    // imprime cabecalho do nosso jogo
+    SetConsoleOutputCP(65001);
+    SetConsoleCP(65001);
     printf("******************************************\n");
     printf("* Bem-vindo ao nosso jogo de adivinhação *\n");
     printf("******************************************\n");
